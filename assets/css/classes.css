@@ -1,0 +1,22 @@
+.main-content {
+  max-width: 112rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.header {
+  min-height: 100vh;
+}
+
+.main-bg {
+  margin-top: 4rem;
+  border-radius: 1.6rem;
+  padding: 3rem;
+  height: 50rem;
+  background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .8) 100%), url('/assets/img/montanha.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+

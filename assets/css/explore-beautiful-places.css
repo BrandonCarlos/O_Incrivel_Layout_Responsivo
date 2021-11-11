@@ -1,0 +1,119 @@
+.explore-beautiful-places {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.places-title p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.places-title h1 {
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+
+.slide,
+.form-places form,
+.popular-search-title,
+.select-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide img {
+  width: 30px;
+  height: 30px;
+  padding: .5rem;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slide h3 {
+  margin: 0 .5rem;
+}
+
+.form-places {
+  min-width: 100%;
+  background-color: white;
+  margin-bottom: -10rem;
+  border-radius: 3rem;
+  box-shadow: 0 .4rem .4rem .4rem rgba(0, 0, 0, .1)
+}
+
+.form-places form {
+  padding: 3rem;
+}
+
+.form-places form div + div {
+  margin-left: 3rem;
+}
+
+.form-places form div {
+  display: flex;
+  align-items: center;
+}
+
+.form-places form div label {
+  color: var(--color-blue);
+  margin: 0 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.form-places form div input,
+.form-places form div select {
+  padding: .8rem 1.6rem;
+  border: .1rem solid rgb(199, 198, 198);
+  border-radius: .4rem;
+}
+
+.form-places form div.search {
+  background: var(--color-blue);
+  padding: 1.8rem .8rem;
+  border-radius: .8rem;
+} 
+
+/* Popular search */
+.popular-search {
+  margin: 12rem auto 0;
+  max-width: 65rem;
+}
+
+.popular-search-title {
+  align-items: flex-start;
+}
+
+.popular-search-title h3 {
+  margin-right: -.5rem; 
+  font-size: 2rem;
+  color: rgb(126, 126, 126);
+  margin-bottom: 2rem;
+}
+
+.select-search {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.select-search:last-child {
+  margin-top: .5rem;
+}
+
+.select-search p {
+  display: inline-block;
+  padding: .8rem 2rem;
+  border: 1px solid rgb(126, 126, 126);
+  border-radius: .4rem; 
+}
+
+
+
+
+
+

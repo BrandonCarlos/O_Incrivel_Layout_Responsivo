@@ -1,0 +1,63 @@
+.menu {
+  margin-top: 3rem;
+}
+
+.menu-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu h1,
+.lista li a {
+  color: var(--color-blue);
+  font-size: 2.5rem;
+}
+
+.logo span {
+  color: #000;
+}
+
+.lista {
+  display: flex;
+  align-items: center;
+}
+
+.lista li + li,
+.login button + button {
+  margin-left: 3rem;
+}
+
+.lista li a {
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.lista li a::after {
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  height: .2rem;
+  width: 0%;
+  background-color: var(--color-blue);
+  transition: 700ms ease-in-out;
+} 
+
+.lista li a:hover::after {
+  width: 100%;
+}
+
+.login button[type="submit"]:first-child {
+  color: var(--color-blue);
+  background: none;
+}
+
+.login button + button {
+  background: var(--color-blue);
+  padding: .8rem 1.2rem;
+  border-radius: .4rem;
+  color: white;
+  font-weight: bold;
+}
+

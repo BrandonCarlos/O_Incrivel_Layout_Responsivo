@@ -1,0 +1,158 @@
+.rodape {
+  margin-top: 12rem;
+}
+
+.rodape-content {
+  height: 30rem;
+  background: var(--color-purple);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius:  1.2rem;
+  margin-bottom: 12rem;
+}
+.rodape-content h1 {
+  font-size: 4rem;
+}
+
+.rodape-content h1 span {
+  color: var(--color-blue);
+}
+
+.rodape-content p {
+  font-size: 1.2rem;
+  margin: 4rem 0;
+  color: rgb(116, 116, 116);
+}
+
+.applications,
+.google-play,
+.app-store {
+  display: flex;
+  align-items: center;
+}
+
+.google-play,
+.app-store {
+  background: rgb(158, 157, 157);
+  padding: .8rem;
+  border-radius: .5rem;
+}
+
+.google-play {
+  margin-right: 1.2rem;
+}
+
+.google-play > img,
+.app-store > img {
+  margin-right: .8rem;
+}
+
+.description-google-play p {
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
+.description-google-play h3 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.rodape-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+}
+
+.rodape-tourink,
+.rodape-menu,
+.rodape-blooking,
+.rodape-further,
+.rodape-getapp {
+  display: flex;
+  flex-direction: column;
+}
+
+.rodape-tourink h3,
+.rodape-menu h3,
+.rodape-blooking h3,
+.rodape-further h3,
+.rodape-getapp h3 {
+  font-size: 1.6rem;
+  margin-bottom: .4rem;
+}
+
+.rodape-tourink h3 span {
+  color: var(--color-blue);
+}
+
+.rodape-tourink p {
+  max-width: 16rem;
+  margin: 2rem 0;
+  font-size: 1.6rem;
+}
+
+.rodape-redes-sociais {
+  display: flex;
+  align-items: center;
+}
+
+.rodape-redes-sociais img {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.rodape-menu a,
+.rodape-blooking a,
+.rodape-further a,
+.rodape-getapp a {
+  display: inline-block;
+  color: rgb(133, 133, 133);
+  margin: .8rem 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.rodape-menu a::after,
+.rodape-blooking a::after,
+.rodape-further a::after,
+.rodape-getapp a::after {
+  content: '';
+  position: absolute;
+  bottom: .5rem;
+  left: -1rem;
+  width: .5rem;
+  height: .5rem;
+  background: var(--color-blue);
+  border-radius: 50%;
+  display: none;
+}
+
+.rodape-menu a:hover::after,
+.rodape-blooking a:hover::after,
+.rodape-further a:hover::after,
+.rodape-getapp a:hover::after {
+  display: block;
+}
+
+.copyright {
+  grid-column: 1 / 6;
+  margin: 4rem 0;
+}
+
+.copyright p {
+  text-align: center;
+  color: rgb(133, 133, 133);
+}
+
+
